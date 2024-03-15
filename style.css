@@ -1,0 +1,45 @@
+.container{
+    margin : 0 auto;
+    width: 400px;
+}
+input, select {
+    display: block;
+    margin: 1rem auto;
+    min-width: 300px;
+    width: 90%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
+input[type=submit]{
+    background-color: bisque;
+}
+
+#msgBox {
+    margin: 0 auto;
+    text-align: center;
+}
+#userList {
+    margin: 2rem auto;
+}
+#userList button {
+    display: block;
+    padding: 1rem 0.5rem;
+    margin: 1rem auto;
+    background-color: bisque;
+}
+#userList table {
+    margin: 0 auto;
+}
+#userList table tr td {
+    padding: 0.25rem;
+}
+
+.warning {
+    color : #ffc107;
+}
+.success{
+    color: #28a745;
+}
+.danger {
+    color : #dc3545;
+}
